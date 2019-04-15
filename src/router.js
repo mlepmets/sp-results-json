@@ -1,8 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Events from './views/Events.vue';
+import NotFoundComponent from '@/components/NotFoundComponent.vue';
+import Result from './views/Result.vue';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -10,16 +12,25 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'index',
+      component: Events
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      path: '/events',
+      name: 'event-list',
+      component: Events
+    },
+    {
+      path: '/result/:resultID',
+      name: 'result-page',
+      component: Result
+    },
+
+    // 404
+    {
+      path: '*',
+      name: '404-page',
+      component: NotFoundComponent
     }
   ]
-})
+});

@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "100m"
+    },
+    {
+      "id": "2",
+      "name": "Long Jump"
+    },
+    {
+      "id": "3",
+      "name": "Shot Put"
+    },
+    {
+      "id": "4",
+      "name": "High Jump"
+    },
+    {
+      "id": "5",
+      "name": "400m"
+    },
+    {
+      "id": "6",
+      "name": "110m Hurdles"
+    },
+    {
+      "id": "7",
+      "name": "Discus Throw"
+    },
+    {
+      "id": "8",
+      "name": "Pole Vault"
+    },
+    {
+      "id": "9",
+      "name": "Javelin"
+    },
+    {
+      "id": "10",
+      "name": "1500m"
+    }
+  ]
+}

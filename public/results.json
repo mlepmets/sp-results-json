@@ -1,0 +1,98 @@
+{
+  "results": [
+    {
+      "event_id": "8",
+      "results": [
+        {
+          "Rank": "1",
+          "Country": "AUS",
+          "Athlete": "Cedric Dubler",
+          "Result": "5.00",
+          "Points": "910"
+        },
+        {
+          "Rank": "2",
+          "Country": "CAN",
+          "Athlete": "Pierce Lepage",
+          "Result": "4.90",
+          "Points": "880"
+        },
+        {
+          "Rank": "3",
+          "Country": "ENG",
+          "Athlete": "John Lane",
+          "Result": "4.80",
+          "Points": "849"
+        },
+        {
+          "Rank": "4",
+          "Country": "WAL",
+          "Athlete": "Ben Gregory",
+          "Result": "4.80",
+          "Points": "849"
+        },
+        {
+          "Rank": "5",
+          "Country": "GRN",
+          "Athlete": "Lindon Victor",
+          "Result": "790",
+          "Points": "666"
+        },
+        {
+          "Rank": "6",
+          "Country": "AUS",
+          "Athlete": "Kyle Cranston",
+          "Result": "4.40",
+          "Points": "731"
+        }
+      ]
+    },
+    {
+      "event_id": "10",
+      "results": [
+        {
+          "Rank": "1",
+          "Country": "JPN",
+          "Athlete": "Akihiko Nakamura",
+          "Time": "4:18.370",
+          "Points": "823"
+        },
+        {
+          "Rank": "2",
+          "Country": "AUS",
+          "Athlete": "Cedric Dubler",
+          "Time": "4:32.120",
+          "Points": "731"
+        },
+        {
+          "Rank": "3",
+          "Country": "AUT",
+          "Athlete": "Dominik Distelberger",
+          "Time": "4:33.470",
+          "Points": "722"
+        },
+        {
+          "Rank": "4",
+          "Country": "EST",
+          "Athlete": "Karl Robert Saluri",
+          "Time": "4:39:400",
+          "Points": "684"
+        },
+        {
+          "Rank": "5",
+          "Country": "POL",
+          "Athlete": "Pawel Wiesiolek",
+          "Time": "4:42.270",
+          "Points": "666"
+        },
+        {
+          "Rank": "",
+          "Country": "CZE",
+          "Athlete": "Jiri Sykora",
+          "Time": "Did not finish",
+          "Points": "0"
+        }
+      ]
+    }
+  ]
+}
