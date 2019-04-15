@@ -13,16 +13,7 @@ export default {
   components: {},
   data() {
     return {
-      results: [
-        {
-          rank: 1,
-          flag: 'ee',
-          country: 'EST',
-          athlete: 'Test',
-          time: '1:20.394',
-          points: 324
-        }
-      ],
+      results: [],
       flagNames: {
         AUS: 'au',
         CAN: 'ca',
