@@ -10,7 +10,6 @@ import FlagIcon from 'vue-flag-icon';
 Vue.use(FlagIcon);
 
 export default {
-  components: {},
   data() {
     return {
       results: [],
