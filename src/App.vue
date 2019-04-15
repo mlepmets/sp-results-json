@@ -25,7 +25,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
 $primaryGray: #e4e4e4;
 $hoverGray: #f5f5f5;
 .nav {
