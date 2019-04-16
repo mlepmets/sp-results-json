@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Events from './views/Events.vue';
-import NotFoundComponent from '@/components/NotFoundComponent.vue';
-import Result from './views/Result.vue';
+import Events from '@/views/Events.vue';
+import NotFoundComponent from '@/views/NotFoundComponent.vue';
+import Result from '@/views/Result.vue';
 
 Vue.use(Router);
 

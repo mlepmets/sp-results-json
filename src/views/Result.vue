@@ -55,7 +55,7 @@ export default {
       resultType: 'Time',
       eventID: '1',
       events: {},
-      title: ''
+      title: 'Event'
     };
   },
   methods: {
