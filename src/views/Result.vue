@@ -24,7 +24,7 @@
           <p>{{ result.Rank }}</p>
         </div>
         <div class="country">
-          <flag :iso="result.flag"/>
+          <flag :iso="flagNames[result.Country]"/>
           <span>{{` ${result.Country}` }}</span>
         </div>
         <div class="athlete">
@@ -48,6 +48,10 @@
 </template>
 
 <script>
+import Vue from 'vue';
+import FlagIcon from 'vue-flag-icon';
+Vue.use(FlagIcon);
+
 export default {
   data() {
     return {
@@ -55,7 +59,19 @@ export default {
       resultType: 'Time',
       eventID: '1',
       events: {},
-      title: 'Event'
+      title: 'Event',
+      flagNames: {
+        AUS: 'au',
+        CAN: 'ca',
+        ENG: 'gb',
+        WAL: 'wf',
+        GRN: 'gd',
+        JPN: 'jp',
+        EST: 'ee',
+        POL: 'pl',
+        CZE: 'cz',
+        AUT: 'at'
+      }
     };
   },
   methods: {
