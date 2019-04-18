@@ -7,16 +7,18 @@
       </div>
     </div>
 
-    <div
-      class="results results-border"
+    <router-link
+      class="event-link"
+      :to="{ name: 'result-page', params: { resultID: event.id } }"
       v-for="event in events"
       :key="event.id"
-      @click="goToEvent(event.id)"
     >
-      <div>
-        <p>{{ event.name }}</p>
+      <div class="results results-border">
+        <div>
+          <p>{{ event.name }}</p>
+        </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 
@@ -31,9 +33,6 @@ export default {
     async getJSON() {
       let response = await fetch('./events.json');
       await response.json().then(data => (this.events = data.events));
-    },
-    goToEvent(id) {
-      window.location.href = '/result/' + id;
     }
   },
   mounted: function() {
