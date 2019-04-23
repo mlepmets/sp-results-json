@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1 class="title">{{ title }}</h1>
+
     <div v-if="results">
       <div class="results results-header">
         <div class="rank">
@@ -19,6 +20,7 @@
           <p>Points</p>
         </div>
       </div>
+
       <div class="results results-border" v-for="result in results" :key="result.rank">
         <div class="rank">
           <p>{{ result.Rank }}</p>

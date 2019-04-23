@@ -26,7 +26,7 @@
 export default {
   data() {
     return {
-      events: [{ id: 1, name: 'ketta' }]
+      events: []
     };
   },
   methods: {
